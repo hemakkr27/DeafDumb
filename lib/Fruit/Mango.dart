@@ -11,7 +11,7 @@ class _MangoFruitState extends State<MangoFruit> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("A Related Image and Video"),
+          title: Text("Mango Related Image and Video"),
         ),
         body: SingleChildScrollView(
           child: Container(

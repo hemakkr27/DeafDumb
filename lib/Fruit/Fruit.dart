@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myprojt/Alphabets/Mango.dart';
+import 'package:myprojt/Fruit/Mango.dart';
 import 'package:myprojt/Fruit/Grapes.dart';
 
 import 'package:myprojt/Fruit/cherry.dart';
