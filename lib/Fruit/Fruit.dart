@@ -4,9 +4,10 @@ import 'package:myprojt/Fruit/Grapes.dart';
 
 import 'package:myprojt/Fruit/cherry.dart';
 
-import '../Apple.dart';
 import 'Watermillion.dart';
+import 'apple.dart';
 import 'banana.dart';
+import 'goava.dart';
 import 'orange.dart';
 
 class FruitSign extends StatefulWidget {
@@ -100,6 +101,22 @@ class _FruitSignState extends State<FruitSign> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => GrapeFruit()));
+                      },
+                    ),
+                    InkWell(
+                      child: Card(
+                        child: ListTile(
+                          leading: Icon(Icons.forward),
+                          title: Text(
+                            'Goava',
+                          ),
+                        ),
+                      ),
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => GoavaFruit()));
                       },
                     ),
                     InkWell(

@@ -8,6 +8,7 @@ import 'package:myprojt/shape/shape.dart';
 
 import 'Basic/BasicSign.dart';
 import 'Number.dart';
+import 'animals/home.dart';
 
 //https://github.com/hemakkr27/DeafDumb
 
@@ -181,7 +182,7 @@ class _MyAppState extends State<MyApp> {
                               Icon(Icons.ac_unit, size: 25, color: Colors.blue),
                         ),
                         Custumcls(
-                            w1: AlphabetsCls(),
+                            w1: AnimalSign(),
                             s1: "Animal ",
                             // s2: "Texy",
                             icon: Icon(Icons.ac_unit,

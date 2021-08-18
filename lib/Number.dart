@@ -24,9 +24,6 @@ class _NumberclsState extends State<Numbercls> {
                       padding: const EdgeInsets.all(20.0),
                       child: Column(
                         children: [
-                          Image.asset(
-                            "images/c22.png",
-                          ),
                           Text(
                             "N : Number",
                             style: TextStyle(fontSize: 20),
@@ -42,13 +39,13 @@ class _NumberclsState extends State<Numbercls> {
                       children: [
                         Card(
                           child: Image.asset(
-                            "images/0.png",
+                            "images/0.JPEG",
                           ),
                           elevation: 10,
                         ),
                         Card(
                           child: Image.asset(
-                            "images/one.png",
+                            "images/1.JPEG",
                             width: 250,
                             height: 250,
                           ),
@@ -56,49 +53,115 @@ class _NumberclsState extends State<Numbercls> {
                         ),
                         Card(
                           child: Image.asset(
-                            "images/2.png",
+                            "images/2.JPEG",
                           ),
                           elevation: 10,
                         ),
                         Card(
                           child: Image.asset(
-                            "images/3.png",
+                            "images/3.JPEG",
                           ),
                           elevation: 10,
                         ),
                         Card(
                           child: Image.asset(
-                            "images/4.png",
+                            "images/4.JPEG",
                           ),
                           elevation: 10,
                         ),
                         Card(
                           child: Image.asset(
-                            "images/5.png",
+                            "images/5.JPEG",
                           ),
                           elevation: 10,
                         ),
                         Card(
                           child: Image.asset(
-                            "images/6.png",
+                            "images/6.JPEG",
                           ),
                           elevation: 10,
                         ),
                         Card(
                           child: Image.asset(
-                            "images/7.png",
+                            "images/7.JPEG",
                           ),
                           elevation: 10,
                         ),
                         Card(
                           child: Image.asset(
-                            "images/8.png",
+                            "images/8.JPEG",
                           ),
                           elevation: 10,
                         ),
                         Card(
                           child: Image.asset(
-                            "images/9.png",
+                            "images/9.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/10.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/11.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/12.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/13.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/14.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/15.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/16.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/17.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/18.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/19.JPEG",
+                          ),
+                          elevation: 10,
+                        ),
+                        Card(
+                          child: Image.asset(
+                            "images/20.JPEG",
                           ),
                           elevation: 10,
                         ),
