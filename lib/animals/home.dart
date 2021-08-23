@@ -43,161 +43,53 @@ class _AnimalSignState extends State<AnimalSign> {
                       mainAxisSpacing: 20,
                       crossAxisSpacing: 20,
                       children: [
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Bear"),
-                              Image.asset(
-                                "images/animals/bear.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Bear",
+                          img: "images/animals/bear.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Cat"),
-                              Image.asset(
-                                "images/animals/cat.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Cat",
+                          img: "images/animals/cat.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Cow"),
-                              Image.asset(
-                                "images/animals/cow.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Cow",
+                          img: "images/animals/cow.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Dog"),
-                              Image.asset(
-                                "images/animals/dog.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Dog",
+                          img: "images/animals/dog.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Elephant"),
-                              Image.asset(
-                                "images/animals/elephant.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Elephant",
+                          img: "images/animals/elephant.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Goat"),
-                              Image.asset(
-                                "images/animals/goat.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Goat",
+                          img: "images/animals/goat.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Horse"),
-                              Image.asset(
-                                "images/animals/horse.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Horse",
+                          img: "images/animals/horse.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Lion"),
-                              Image.asset(
-                                "images/animals/lion.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Lion",
+                          img: "images/animals/lion.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Monkey"),
-                              Image.asset(
-                                "images/animals/monkey.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Monkey",
+                          img: "images/animals/monkey.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Mouse tiger"),
-                              Image.asset(
-                                "images/animals/mouse.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Mouse",
+                          img: "images/animals/mouse.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Tiger"),
-                              Image.asset(
-                                "images/animals/tiger.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Tiger",
+                          img: "images/animals/tiger.png",
                         ),
-                        Card(
-                          child: Column(
-                            children: [
-                              Text("Zoo"),
-                              Image.asset(
-                                "images/animals/zoo.png",
-                                height: 110,
-                                fit: BoxFit.fill,
-                              ),
-                            ],
-                          ),
-                          //elevation: 10,
+                        TextImagCls(
+                          S1: "Zoo",
+                          img: "images/animals/zoo.png",
                         ),
                       ],
                     ),
@@ -222,3 +114,60 @@ class _AnimalSignState extends State<AnimalSign> {
         ));
   }
 }
+
+class TextImagCls extends StatelessWidget {
+  String S1;
+  String img;
+  // Image imgs;
+
+  TextImagCls({
+    required this.S1,
+    required this.img,
+    // required this.imgs
+  });
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(15.0),
+            child: Text(S1),
+          ),
+          // imgs,
+          Image.asset(
+            img,
+            height: 110,
+            fit: BoxFit.fill,
+          ),
+        ],
+      ),
+      elevation: 10,
+    );
+  }
+}
+
+
+      // Card(
+                        //   child: Column(
+                        //     children: [
+                        //       Text("Bear"),
+                        //       Image.asset(
+                        //         "images/animals/bear.png",
+                        //         height: 110,
+                        //         fit: BoxFit.fill,
+                        //       ),
+                        //     ],
+                        //   ),
+                        //   //elevation: 10,
+                        // ),
+
+                        //     TextImagCls(
+                        //   S1: "Bear",
+                        //   img: "images/animals/bear.png",
+                          // imgs: Image.asset(
+                          //   "images/animals/bear.png",
+                          //   height: 110,
+                          //   fit: BoxFit.fill,
+                          // ),
+                        // ),

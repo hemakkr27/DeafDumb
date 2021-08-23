@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:myprojt/animals/home.dart';
 
-class Shapecls extends StatefulWidget {
+class Vegatablecls extends StatefulWidget {
   @override
-  _ShapeclsState createState() => _ShapeclsState();
+  _VegatableclsState createState() => _VegatableclsState();
 }
 
-class _ShapeclsState extends State<Shapecls> {
+class _VegatableclsState extends State<Vegatablecls> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Shape Related Image and Video"),
+          title: Text("Vegatable Related Image and Video"),
         ),
         body: SingleChildScrollView(
           child: Container(
@@ -22,7 +22,7 @@ class _ShapeclsState extends State<Shapecls> {
                   Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Text(
-                      "Shapes",
+                      "Vegatables",
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -33,32 +33,16 @@ class _ShapeclsState extends State<Shapecls> {
                     crossAxisSpacing: 20,
                     children: [
                       TextImagCls(
-                        S1: 'Box',
-                        img: "images/box.png",
-                      ),
-                      // Card(
-                      //   child: Column(
-                      //     children: [
-                      //       Padding(
-                      //         padding: const EdgeInsets.all(15.0),
-                      //         child: Text(
-                      //           'Box',
-                      //         ),
-                      //       ),
-                      //       Image.asset(
-                      //         "images/box.png",
-                      //       ),
-                      //     ],
-                      //   ),
-                      //   elevation: 10,
-                      // ),
-                      TextImagCls(
-                        S1: 'Block',
-                        img: "images/block.png",
+                        S1: 'Carrot',
+                        img: "images/carrot.png",
                       ),
                       TextImagCls(
-                        S1: 'Circle',
-                        img: "images/circleshape.png",
+                        S1: 'Lemon',
+                        img: "images/lemon.png",
+                      ),
+                      TextImagCls(
+                        S1: 'Onion',
+                        img: "images/onion.png",
                       ),
                     ],
                   ),
